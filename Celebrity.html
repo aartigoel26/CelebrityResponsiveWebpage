@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrity Responsive Website Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" 
+  integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" 
+  referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="celebrity.css">
+</head>
+<body>
+<header>
+<a href="#" class="logo">Celebrity<span>.</span></a>
+<ul class="navigation">
+<li><a href="#banner">Home</a></li>
+<li><a href="#movies">Movies</a></li>
+
+</ul>
+</header>
+<section class="banner" id="banner">
+<div class="content">
+  <h2>Akshay Kumar</h2>
+  <p>Rajiv Hari Om Bhatia (born 9 September 1967)known professionally as Akshay Kumar is an Indian-born naturalised
+   Canadian actor, producer, martial artist and television personality who works in Bollywood,
+   the commercial Hindi language film industry based chiefly in Mumbai, India.</p>
+   <a href="#" class="btn">Know More</a>
+</div>
+
+</section>
+
+<!--First movie image div-->
+<div class=b1>
+<img src="akimg4.jpg" class="model">
+<div class="text-box">
+
+<h2><span>M</span>ission <span>M</span>angal <span>M</span>ovie</h2>
+<br>
+<h5>
+Inspired by true events that led up to ISRO`s Mars Orbiter Mission (Mangalyaan), 
+the film tells the story of a group of scientists who overcame their professional 
+and personal tribulations to mastermind the greatest accomplishment in Indian space history.
+Mission Mangal is a tale of ordinary people doing extraordinary things and inspiring 
+generations to dream big and achieve the impossible.ustry based chiefly in Mumbai, India.
+    </h5>
+</div>
+</div>
+
+<!--Second movie image div-->
+
+<div class=b2>
+<img src="akimg5.jpg" class="model">
+<div class="text-box">
+
+<h2><span>G</span>abbar <span>M</span>ovie</h2>
+<br>
+<h5>
+There`s no one more dangerous than a common man on a death wish. 
+This is one such story of a man remorselessly wronged by the establishment. 
+One freak incident results in everything he held dear taken away from him. Predictably, 
+this system doesn`t seem to care - let alone resolve. 
+That`s when Ajay (AK) takes matters in his own hands. 
+An underground vigilante army, a secret id
+an elaborate modus...all of these combined make a `Gabbar` - a true hero with dreadful villainous instincts.
+    </h5>
+</div>
+</div>
+
+
+<!--third movie image div-->
+
+<div class=b3>
+<img src="akimg6.jpg" class="model">
+<div class="text-box">
+
+<h2><span>R</span>owdy <span>R</span>athore <span>M</span>ovie</h2>
+<br>
+<h5>
+Shiva (Akshay Kumar) is a small time conman in love with Paro (Sonakshi Sinha),
+ a pretty girl whom he met at a wedding he wasnt invited to. Into 
+this picture perfect world enters six year old girl who inexplicably believes
+ Shiva to be her dad! And if this wasnt bad enough,
+ Shiva also becomes the object of a series of life threatening attacks by
+ a gang of deadly criminals who seem to know something he doesnt.
+ While desperately trying to save his life and love, 
+Shiva stumbles upon a deadly secret that will take him to a small town in Patna;
+ a town terrorized by its ruthless MLA and the mafia he controls;
+ a town whose inhabitants only hope for redemption isShiva!
+    </h5>
+</div>
+</div>
+
+<script type="text/javascript">
+window.addEventListener('scroll',function()
+{
+  const header=document.querySelector('header');
+  header.classList.toggle("sticky",window.scrolly>0);
+});
+
+</script>
+</body>
+</html>
